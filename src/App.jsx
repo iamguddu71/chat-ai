@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <h1>Chat AI</h1>
-      <textarea value={} cols="30" rows="10"></textarea>
+      <textarea value={12} cols="30" rows="10"></textarea>
       <button onClick={generateAnswer}>Generate answer</button>
     </>
   );
